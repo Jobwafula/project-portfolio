@@ -1,18 +1,6 @@
 @media only screen and ( max-width:768px) {
 
-    /* header{
-         background-color:rgba(78, 77, 76, 0.2) ; 
-        width: 100vw;
-         height: 20vh; 
-    } */
 
-    li{
-        /* list-style: none; */
-    }
-    ul{
-        display: block;
-        
-    }
     .harmburger{
         width: 35px;
         height: 2px;
@@ -20,7 +8,7 @@
         margin-bottom:8px ;
         
     }
-    .nav-menu{
+    /* .nav-menu{
         position: fixed;
         left: -120%;
         display: flex;
@@ -29,7 +17,7 @@
         background-color: #262626;
         width: 100%;
         display: none;
-        
+         */
 
     }
     .nav-menu.active{

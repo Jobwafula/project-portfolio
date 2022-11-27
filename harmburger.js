@@ -1,15 +1,10 @@
-const harmBurger = document.getElementById("harmburger"); //harmburger div declaration
-
-const navMenu = document.querySelector(".nav-menu");    //menu div declaration
-harmBurger.addEventListener("click",display());
-
-
-//display function
-function display(){
-    
-    // harmBurger.classList.toggle("active");
-    // navMenu.classList.toggle("active");
-    alert("under development !");
-    
-
-}
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+hamburger.addEventListener("click", ()=>{
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+});
+document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+  }))
