@@ -250,7 +250,7 @@ li{
         gap: 0;
         flex-direction: column;
         background-color:var(--primaryColor);
-        width: 100%;
+        width: 100vw;
         text-align: center;
         transition: 0.3s;
         
