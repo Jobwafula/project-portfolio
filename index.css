@@ -45,7 +45,10 @@ a{
 }
 footer{
     background-color:rgba(78, 77, 76, 0.2);
-    height: 200px;
+    
+    left: 0;
+    bottom: 0;
+    
     width: 100vw;
 
 }
