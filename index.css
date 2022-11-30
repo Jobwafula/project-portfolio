@@ -283,7 +283,7 @@ li{
 .twitter{
     width: 100px;
     height: 50px;
-    background-color:rgba(75,0,130,0.5);
+    background-color:grey;
     justify-content: center;
     align-items: center;
 }
@@ -298,7 +298,7 @@ li{
 .facebook{
     width: 100px;
     height: 50px;
-    background-color: indigo;
+    background-color:blueviolet;
     justify-content: center;
     align-items: center;
 }
@@ -313,8 +313,31 @@ li{
 .github{
     width: 100px;
     height: 50px;
-    background-color: indigo;
+    background-color: burlywood;
     justify-content: center;
     align-items: center;
     
+}
+
+.githubdiv{
+    width: 100px;
+    height: 50px;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+.twitterdiv{
+    width: 100px;
+    height: 50px;
+    background-color:burlywood;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebookdiv{
+    width: 100px;
+    height: 50px;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
 }
