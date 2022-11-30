@@ -298,9 +298,10 @@ li{
 .facebook{
     width: 100px;
     height: 50px;
-    background-color:blueviolet;
+    background-color:grey;
     justify-content: center;
     align-items: center;
+    
 }
 
 #github{
@@ -337,7 +338,7 @@ li{
 .facebookdiv{
     width: 100px;
     height: 50px;
-    background-color: grey;
+    background-color: lightseagreen;
     justify-content: center;
     align-items: center;
 }
